@@ -1,4 +1,4 @@
-import Button from 'c:/Users/lawal/Desktop/Workspace/developerPort/src/layout/button/button';
+import Button from '../../layout/button/Button.jsx';
 import classes from './Hero.module.css';
 import hero_image from '../../assets/hero_image.svg'
 import oval from '../../assets/oval.svg'
