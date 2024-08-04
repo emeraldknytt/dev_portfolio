@@ -1,0 +1,27 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: 0 auto;
+    padding-top: 2.44rem;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    letter-spacing: -0.444px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 1.84rem;
+    /* position: relative; */
+    z-index: 1;
+}
