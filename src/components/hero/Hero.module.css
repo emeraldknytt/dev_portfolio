@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    max-width: 75vw;
+    max-width: 77vw;
     margin: 0 auto;
 
 }
@@ -26,6 +26,7 @@ h1 {
 
 h1 span {
     border-bottom: 7px solid #6C1BF0;
+    padding-bottom: -10%;
 }
 
 .hero_content p {
@@ -39,6 +40,32 @@ h1 span {
 }
 
 .button {
-    margin-top: 4.12rem;
+    margin-top: 4.13rem;
 }
 
+.images {
+    position: relative;
+}
+
+.hero_image {
+    position: absolute;
+    top: -18%;
+    right: 0;
+    z-index: 0;
+}
+
+.oval {
+    position: relative;
+    z-index: 1;
+    right: 380px;
+    top: 200px;
+}
+
+
+.circles_div {
+    position: absolute;
+    /* z-index: 1; */
+    background-color: transparent;
+    left: -240px;
+    top: 80px;
+}

@@ -1,0 +1,30 @@
+.project_container {
+  max-width: 77vw;
+  margin: 140px auto 0;
+  background-color: transparent;
+}
+
+.project_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.project_title h2 {
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 5.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.5rem; /* 100% */
+  letter-spacing: -0.15625rem;
+}
+
+.project_cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1.51rem;
+  background-color: transparent;
+  row-gap: 4.31rem;
+}

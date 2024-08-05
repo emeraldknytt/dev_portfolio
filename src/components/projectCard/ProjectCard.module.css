@@ -1,0 +1,42 @@
+.project_card h3 {
+  color: #D9D9D9;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; /* 133.333% */
+  margin: 1.25rem 0 0.44rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.project_card h3:hover {
+  color:#6C1BF0;
+  transform: scale(1.01);
+}
+
+.project_card img:hover {
+  transform: scale(1.02);
+  transition-duration: 100ms;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.tags p {
+  color: #D9D9D9;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem; /* 155.556% */
+  cursor: pointer;
+  transition: all ease-out;
+}
+
+.tags p:hover {
+  color:#6C1BF0;
+  transform: scale(1.01);
+  transition-duration: 100ms;
+}

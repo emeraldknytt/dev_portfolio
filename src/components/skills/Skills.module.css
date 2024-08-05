@@ -1,0 +1,17 @@
+.skills_container {
+    max-width: 77vw;
+    margin: 219px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 2px solid white;
+    padding-top: 72px;
+    row-gap: 58px;
+
+}
+
+
+.circles_div {
+    position: absolute;
+    right: 0px;
+    top: 1100px;
+}

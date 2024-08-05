@@ -3,7 +3,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 75vw;
+    max-width: 77vw;
     margin: 0 auto;
     padding-top: 2.44rem;
 }
@@ -24,4 +24,11 @@ h2 {
     padding-right: 1.84rem;
     /* position: relative; */
     z-index: 1;
+}
+
+.icons img:hover {
+    fill:#6C1BF0;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 200ms ease-in;
 }
