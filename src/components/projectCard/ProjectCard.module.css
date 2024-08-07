@@ -31,6 +31,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.75rem; /* 155.556% */
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all ease-out;
 }

@@ -1,0 +1,109 @@
+.contact_container {
+  background-color: #242424;
+}
+
+.contact_messagebox {
+  max-width: 72.5vw;
+  margin: 13.75rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  padding-top: 5.25rem; 
+  /* background-color: aqua; */
+}
+
+.contact_message, .contact_formbox {
+  /* width: 50%; */
+  flex: 1;
+}
+
+.contact_message h2 {
+  color: #FFF;
+  font-size: 5.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.5rem; /* 100% */
+  letter-spacing: -0.15625rem;
+  font-family: inherit;
+
+}
+
+.contact_message p {
+  color: #D9D9D9;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem; /* 155.556% */
+  font-family: inherit;
+  margin: 2.25rem 0 23.9375rem 0;
+}
+
+.contact_formbox label {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  margin-top: 2rem;
+}
+
+.contact_formbox input, textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 0 1.5rem 1.06rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: -0.01388rem;
+  font-family: inherit;
+  border-bottom: 2px solid white;
+}
+
+.contact_formbox input::placeholder, textarea::placeholder{
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+.contact_formbox input:focus, textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #6C1BF0;
+  text-transform: none;
+}
+
+label[for="email"] {
+  position: relative;
+}
+
+label[for="email"] input {
+  margin-bottom: 0;
+}
+
+label[for="email"] svg {
+  position: absolute;
+right:0;
+top: 0;
+display: none;
+}
+
+small {
+  color: #FF6F5B;
+  font-family: "Space Grotesk";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; /* 133.333% */
+  letter-spacing: -0.01044rem;
+  /* float: right;  Float is deprecated and not all browsers can read float */
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.31rem;
+  display: none;
+}
+
+.button{
+  display: flex;
+  justify-content: flex-end;
+}
