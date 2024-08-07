@@ -2,9 +2,9 @@
 
 This is my first react project using visual studio code.
 
-This is a simple developer portfolio webpage from single developer portfolio on Figma community
+This is a simple developer portfolio webpage from [Single-page-developer-portfolio](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FmnPrw85nqMCtIeKFr2jz46%2Fsingle-page-developer-portfolio-(Community)%3Fnode-id%3D0-1%26m%3Ddev) on Figma community
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FmnPrw85nqMCtIeKFr2jz46%2Fsingle-page-developer-portfolio-(Community)%3Fnode-id%3D0-1%26m%3Ddev" allowfullscreen></iframe>
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
