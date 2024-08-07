@@ -3,9 +3,8 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    max-width: 77vw;
+    max-width: 72.5vw;
     margin: 0 auto;
-
 }
 
 
@@ -25,7 +24,7 @@ h1 {
 }
 
 h1 span {
-    border-bottom: 7px solid #6C1BF0;
+    border-bottom: 0.4375rem solid #6C1BF0;
     padding-bottom: -10%;
 }
 
@@ -57,8 +56,8 @@ h1 span {
 .oval {
     position: relative;
     z-index: 1;
-    right: 380px;
-    top: 200px;
+    right: 23.75rem;
+    top: 12.5rem;
 }
 
 
@@ -66,6 +65,6 @@ h1 span {
     position: absolute;
     /* z-index: 1; */
     background-color: transparent;
-    left: -240px;
-    top: 80px;
+    left: -15rem;
+    top: 5rem;
 }

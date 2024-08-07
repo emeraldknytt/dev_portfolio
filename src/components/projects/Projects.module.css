@@ -1,6 +1,6 @@
 .project_container {
-  max-width: 77vw;
-  margin: 140px auto 0;
+  max-width: 72.5vw;
+  margin: 8.75rem auto 0;
   background-color: transparent;
 }
 
@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .project_title h2 {
@@ -24,7 +24,7 @@
 .project_cards {
   display: grid;
   grid-template-columns: auto auto;
-  column-gap: 1.51rem;
+  column-gap: 2rem;
   background-color: transparent;
   row-gap: 4.31rem;
 }

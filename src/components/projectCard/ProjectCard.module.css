@@ -22,7 +22,7 @@
 .tags {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 1.125rem;
 }
 
 .tags p {
@@ -33,10 +33,4 @@
   line-height: 1.75rem; /* 155.556% */
   cursor: pointer;
   transition: all ease-out;
-}
-
-.tags p:hover {
-  color:#6C1BF0;
-  transform: scale(1.01);
-  transition-duration: 100ms;
 }
